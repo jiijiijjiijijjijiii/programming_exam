@@ -58,7 +58,7 @@ char caesar(char msg[], int a){
 
 int main(){
 
-    key = 'F';    // key 값 지정
+    scanf("%c", &key);   // key 값 지정
     
     char a[100];
     char b[100];
